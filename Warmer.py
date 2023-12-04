@@ -232,7 +232,7 @@ options.add_argument("window-size=1280,720")
 driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=options)
 driver.maximize_window()
 
-if email_login is not None and if email_pass is not None:
+if email_login is not None and email_pass is not None:
     send_owa_email(email_login, email_pass, email_list, send_volume, flag, email_mode)
 
 #process list
