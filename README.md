@@ -39,8 +39,8 @@ The script supports the following command line arguments:
 
 ```bash
 -h, --help:  Show this help message and exit
--u: Sender Outlook Email ID
--p: Sender Outlook Email Password
+-u: Sender Email ID
+-p: Sender Email Password
 -T: Single Target Email ID
 -t: Multiple Targets from Wordlist
 -x: No. of Emails to Send (applicable only for single targets)
